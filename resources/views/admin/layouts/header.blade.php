@@ -1,15 +1,15 @@
-<header class="header">
-    <section class="sidebar-header bg-gray">
-        <section class="d-flex justify-content-between flex-md-row-reverse px-2">
-            <span id="sidebar-toggle-show" class="d-inline d-md-none pointer"><i class="fas fa-toggle-off"></i></span>
-            <span id="sidebar-toggle-hide" class="d-none d-md-inline pointer"><i class="fas fa-toggle-on"></i></span>
-            <span><img class="logo" src="{{asset('admin-assets/images/logo.png')}}" alt=""></span>
-            <span class="d-md-none" id="menu-toggle"><i class="fas fa-ellipsis-h"></i></span>
+    <header class="header">
+        <section class="sidebar-header bg-gray">
+            <section class="d-flex justify-content-between flex-md-row-reverse px-2">
+                <span id="sidebar-toggle-show" class="d-inline d-md-none pointer"><i class="fas fa-toggle-off"></i></span>
+                <span id="sidebar-toggle-hide" class="d-none d-md-inline pointer"><i class="fas fa-toggle-on"></i></span>
+                <span><img class="logo" src="{{ asset('admin-assets/images/logo.png') }}"/></span>
+                <span class="d-md-none" id="menu-toggle"><i class="fas fa-ellipsis-h"></i></span>
+            </section>
         </section>
-    </section>
-    <section class="body-header" id="body-header">
-        <section class="d-flex justify-content-between">
-            <section>
+        <section class="body-header" id="body-header">
+            <section class="d-flex justify-content-between">
+                <section>
                     <span class="mr-5">
                         <span id="search-area" class="search-area d-none">
                             <i id="search-area-hide" class="fas fa-times pointer"></i>
@@ -19,12 +19,12 @@
                     <i id="search-toggle" class="fas fa-search p-1 d-none d-md-inline pointer"></i>
                     </span>
 
-                <span id="full-screen" class="pointer p-1 d-none d-md-inline mr-5">
+                    <span id="full-screen" class="pointer p-1 d-none d-md-inline mr-5">
                         <i id="screen-compress" class="fas fa-compress d-none"></i>
                         <i id="screen-expand" class="fas fa-expand "></i>
                     </span>
-            </section>
-            <section>
+                </section>
+                <section>
                     <span class="ml-2 ml-md-4 position-relative">
                         <span id="header-notification-toggle" class="pointer">
                             <i class="far fa-bell"></i><sup class="badge badge-danger">4</sup>
@@ -42,7 +42,7 @@
                         <ul class="list-group rounded px-0">
                             <li class="list-group-item list-group-item-action">
                                 <section class="media">
-                                    <img class="notification-img" src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar">
+                                    <img class="notification-img" src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar">
                                     <section class="media-body pr-1">
                                         <h5 class="notification-user">محمد هاشمی</h5>
                                         <p class="notification-text">این یک متن تستی است</p>
@@ -52,7 +52,7 @@
                             </li>
                             <li class="list-group-item list-group-item-action">
                                 <section class="media">
-                                    <img class="notification-img" src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="">
+                                    <img class="notification-img" src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="">
                                     <section class="media-body pr-1">
                                         <h5 class="notification-user">محمد هاشمی</h5>
                                         <p class="notification-text">این یک متن تستی است</p>
@@ -62,7 +62,7 @@
                             </li>
                             <li class="list-group-item list-group-item-action">
                                 <section class="media">
-                                    <img class="notification-img" src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="">
+                                    <img class="notification-img" src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="">
                                     <section class="media-body pr-1">
                                         <h5 class="notification-user">محمد هاشمی</h5>
                                         <p class="notification-text">این یک متن تستی است</p>
@@ -73,7 +73,7 @@
                         </ul>
                     </section>
                     </span>
-                <span class="ml-2 ml-md-4 position-relative">
+                    <span class="ml-2 ml-md-4 position-relative">
                         <span id="header-comment-toggle" class="pointer">
                             <i class="far fa-comment-alt"><sup class="badge badge-danger">3</sup></i>
                         </span>
@@ -88,7 +88,7 @@
                             <ul class="list-group rounded px-0">
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -99,7 +99,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -110,7 +110,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -121,7 +121,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -132,7 +132,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user"> محمد هاشمی</h5>
@@ -143,7 +143,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -154,7 +154,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -165,7 +165,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -176,7 +176,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -187,7 +187,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -198,7 +198,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -209,7 +209,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -220,7 +220,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -231,7 +231,7 @@
                                 </li>
                                 <li class="list-group-item list-groupt-item-action">
                                     <section class="media">
-                                        <img src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="avatar" class="notification-img">
+                                        <img src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="avatar" class="notification-img">
                                         <section class="media-body pr-1">
                                             <section class="d-flex justify-content-between">
                                                 <h5 class="comment-user">محمد هاشمی</h5>
@@ -246,9 +246,9 @@
                     </section>
 
                     </span>
-                <span class="ml-3 ml-md-5 position-relative">
+                    <span class="ml-3 ml-md-5 position-relative">
                         <span id="header-profile-toggle" class="pointer">
-                            <img class="header-avatar" src="{{asset('admin-assets/images/avatar-2.jpg')}}" alt="">
+                            <img class="header-avatar" src="{{ asset('admin-assets/images/avatar-2.jpg') }}" alt="">
                             <span class="header-username">کامران محمدی</span>
                     <i class="fas fa-angle-down"></i>
                     </span>
@@ -272,7 +272,7 @@
                         </section>
                     </section>
                     </span>
+                </section>
             </section>
         </section>
-    </section>
-</header>
+    </header>
